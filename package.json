@@ -1,0 +1,19 @@
+{
+  "name": "@iterable/ckeditor-image2",
+  "version": "1.0.0",
+  "description": "ckeditor image2 plugin with custom edits * remove width/height validation",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iterable/ckeditor-image2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iterable/ckeditor-image2/issues"
+  },
+  "homepage": "https://github.com/Iterable/ckeditor-image2#readme"
+}
