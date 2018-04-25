@@ -14,7 +14,7 @@
 				'<figcaption>{captionPlaceholder}</figcaption>' +
 			'</figure>' ),
 		alignmentsObj = { left: 0, center: 1, right: 2 },
-		regexPercent = /^\s*(\d+\%)\s*$/i;
+    // regexPercent = /^\s*(\d+\%)\s*$/i;
 
 	CKEDITOR.plugins.add( 'image2', {
 		// jscs:disable maximumLineLength
@@ -951,8 +951,8 @@
 			for ( var d in dimensions ) {
 				var dimension = image.attributes[ d ];
 
-				if ( dimension && dimension.match( regexPercent ) )
-					delete image.attributes[ d ];
+        // if ( dimension && dimension.match( regexPercent ) )
+				// 	delete image.attributes[ d ];
 			}
 
 			return el;
