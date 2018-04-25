@@ -13,7 +13,7 @@
 				template +
 				'<figcaption>{captionPlaceholder}</figcaption>' +
 			'</figure>' ),
-		alignmentsObj = { left: 0, center: 1, right: 2 },
+		alignmentsObj = { left: 0, center: 1, right: 2 };
     // regexPercent = /^\s*(\d+\%)\s*$/i;
 
 	CKEDITOR.plugins.add( 'image2', {
